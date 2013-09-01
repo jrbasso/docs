@@ -6,7 +6,7 @@ clean up the database once in a while or send newsletters. This is
 trivial to setup, for example::
 
     # m h dom mon dow command
-    */5 *   *   *   * cd /full/path/to/app && Console/cake myshell myparam
+    */5 *   *   *   * cd /full/path/to/app && Console/cake myshell myparam >> /dev/null
 
 .. meta::
     :title lang=en: Running Shells as cronjobs
